@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="4dp"
+        android:text="STATE/UT\nLast Update"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Confirm"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_red"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/coming_soon"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="ACTive"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:textAlignment="viewEnd"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Recover"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:text="Deads"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_yellow"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

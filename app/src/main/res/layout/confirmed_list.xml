@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/container">
+
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:text="Date"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalconfirmedTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="8dp"
+        android:text="Total Confirmed"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_red"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/confirmsTv"
+        android:textAlignment="viewEnd"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Confirms"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold" />
+
+</LinearLayout>
